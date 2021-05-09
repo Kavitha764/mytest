@@ -1,0 +1,8 @@
+<project>
+<modelVersion>4.0.0</modelVersion>
+<groupId>org.kavi</groupId>
+<artifactId>mavenproject</artifactId>
+<packaging>jar</packaging>
+<version>1.0</version>
+<name>sample maven project</name>
+</project>
