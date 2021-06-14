@@ -1,3 +1,3 @@
 FROM tomcat:8.0.20-jre8
 # Dummy text to test
-ADD /var/lib/jenkins/workspace/jenkins_docker _pipeline/target/mavenproject-1.0.jar /usr/local/tomcat/webapps/mavenproject-1.0.jar
+COPY /var/lib/jenkins/.m2/repository/org/kavi/mavenproject/1.0/mavenproject-1.0.pom /usr/local/tomcat/webapps/mavenproject-1.0.jar/
